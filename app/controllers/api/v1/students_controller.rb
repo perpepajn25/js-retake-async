@@ -1,7 +1,7 @@
 class Api::V1::StudentsController < ApplicationController
 
   def index
-    @students = Student.all
+    byebug
     render json: @students, status: 200
   end
 
